@@ -9,6 +9,11 @@ int main()
     int sum;
 
     cout << "Enter a number hoss! \n";
+    cin >> a;
+
+    cout << "Enter another number \n";
+    cin >> b;
+
     
 
 
