@@ -14,6 +14,8 @@ int main()
     cout << "Enter another number \n";
     cin >> b;
 
+    sum = a + b;
+    cout << "the sum of those numbers is " << sum << endl;
     
 
 
