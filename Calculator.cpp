@@ -28,8 +28,14 @@ int main()
     }   else if(op == '*'){
         result = num1 * num2;
 
-    }
+    }   else if(op == '/'){
+        result = num1 / num2;
 
+    }   else {
+        cout << "Invalid Operator";
+
+    }
+    cout << "The result is: " << result;
 
     return 0;
 }
