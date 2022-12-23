@@ -8,23 +8,16 @@ int main()
     char op;
 
 
-
-
-    string opt;
-    int sum;
-
     cout << "Enter first number: \n";
     cin >> num1;
 
     cout << "Enter a Operator: \n";
-    cin >> opt;
+    cin >> op;
 
     cout << "Enter another number: \n";
     cin >> num2;
 
-    if "opt" == "+":
-    sum = a + b;
-    cout << "the sum of those numbers is " << sum << endl;
+    
 
 
 
