@@ -17,8 +17,18 @@ int main()
     cout << "Enter another number: \n";
     cin >> num2;
 
-    
+    int result;
+    if(op == '+'){
+        result = num1 + num2;
 
+
+    }   else if(op == '-'){
+        result = num1 - num2;
+
+    }   else if(op == '*'){
+        result = num1 * num2;
+
+    }
 
 
     return 0;
