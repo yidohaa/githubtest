@@ -1,9 +1,13 @@
 #include<iostream>
 
 using namespace std;
+
+char name;
+
 int main()
 {
-    cout << "Hello doha";
-
+    cout << "name:";
+    cin >> name;
+    cout << name;
 
 }
