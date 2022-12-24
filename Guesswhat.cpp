@@ -11,15 +11,7 @@ int main()
     cout << "Do you want to play Guesswhat game?" << endl << "y/n";
     cin >> yesorno;
     if (yesorno == 'y'){
-
-
-        
-    }
-
-
-
-
-    while (secretNum != guessedNum){
+        while (secretNum != guessedNum){
         cout << "Enter guess number:";
         cin >> guessedNum;
         if(guessedNum > secretNum){
@@ -35,6 +27,17 @@ int main()
         
 
     }
+
+
+    }
+    else if(yesorno == 'n'){
+        cout << "Ok, Maybe next time" << endl;
+
+    }
+
+
+
+
 
 
     return 0;
