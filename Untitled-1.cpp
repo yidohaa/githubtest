@@ -16,9 +16,9 @@ int main()
 	//input strings
 	while(true)
 	{
-		cout<<"Enter string (\"EXIT\" to quit): ";
+		cout<<"Enter Strings (\"result\" to quit and see results): ";
 		getline(cin, str);
-		if(str=="EXIT")
+		if(str=="result")
 			break;
 
 		//adding string to the list 
