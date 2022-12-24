@@ -15,7 +15,7 @@ int main()
         cout << "Enter guess number:";
         cin >> guessedNum;
         if(attemptcount == 2){
-            cout << "Yo, Concentrate. You have 2 more chance." << endl;
+            cout << "You have 2 more chance." << endl;
         }
         else if(attemptcount == 4){
             cout << "Game Over." << endl;
