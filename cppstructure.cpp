@@ -5,7 +5,7 @@ struct player
 {
     char name[50];
     int roll;
-    float marks;
+    char position;
 } s[10];
 
 int main()
@@ -16,13 +16,13 @@ int main()
     for(int i = 0; i < 10; ++i)
     {
         s[i].roll = i+1;
-        cout << "For position number" << s[i].roll << "," << endl;
+        cout << "For Player " << s[i].roll << ",  Enter Info." << endl;
 
-        cout << "Enter name: ";
+        cout << "Enter name: " << endl;
         cin >> s[i].name;
 
-        cout << "Enter marks: ";
-        cin >> s[i].marks;
+        cout << "Enter Position: ";
+        cin >> s[i].position;
 
         cout << endl;
     }
@@ -32,9 +32,9 @@ int main()
     // Displaying information
     for(int i = 0; i < 10; ++i)
     {
-        cout << "\nRoll number: " << i+1 << endl;
+        cout << "\n Player " << i+1 << endl;
         cout << "Name: " << s[i].name << endl;
-        cout << "Marks: " << s[i].marks << endl;
+        cout << "Position: " << s[i].position << endl;
     }
 
     return 0;
