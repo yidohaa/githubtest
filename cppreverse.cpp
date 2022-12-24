@@ -7,7 +7,7 @@ void reverse(const string& a);
 int main() {
   string str;
 
-  cout << " Please enter a string " << endl;
+  cout << " Please enter a word or sentence: " << endl;
   getline(cin, str);
     
   // function call
